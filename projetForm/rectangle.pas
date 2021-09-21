@@ -1,4 +1,4 @@
-unit rectangle;
+ï»¿unit Rectangle;
 
 interface
 
@@ -18,9 +18,9 @@ type
     Edit2: TEdit;
     procedure Calcul(Sender: TObject);
   private
-    { Déclarations privées }
+    { Dï¿½clarations privï¿½es }
   public
-    { Déclarations publiques }
+    { Dï¿½clarations publiques }
   end;
 
 var
@@ -60,10 +60,11 @@ begin
     tot := -1;
 
   if(tot = -1) then
-    Application.MessageBox('Vous n-avez pas rentrez de bonne valeurs ou avez oublié de préciser le calcul que vous souhaitez réaliser.','ERROR', 0 or MB_ICONERROR)
+    Application.MessageBox('Vous n-avez pas rentrez de bonne valeurs ou avez oubliï¿½ de prï¿½ciser le calcul que vous souhaitez rï¿½aliser.','ERROR', 0 or MB_ICONERROR)
   else
-    msg := 'Le résultat est ' + IntToStr(tot);
+    msg := 'Le rï¿½sultat est ' + IntToStr(tot);
     ShowMessage(msg);
 end;
 
 end.
+

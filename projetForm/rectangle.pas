@@ -62,7 +62,7 @@ begin
   if(tot = -1) then
     Application.MessageBox('Vous n-avez pas rentrez de bonne valeurs ou avez oubli� de pr�ciser le calcul que vous souhaitez r�aliser.','ERROR', 0 or MB_ICONERROR)
   else
-    msg := 'Le r�sultat est ' + IntToStr(tot);
+    msg := 'Le résultat est ' + IntToStr(tot);
     ShowMessage(msg);
 end;
 
